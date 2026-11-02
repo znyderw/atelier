@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "plugin": "/home/znyder/.config/omarchy/plugins/io.github.jholloway12.per-monitor-background/Background.qml",
+  "before": "ec53fda0aa422b0d49037289dc0bd92f019f6793e25fbb0e4b62b07e7854109f",
+  "candidate": "/home/znyder/Projects/omarchy-wallpaper-manager/packaging/Background.qml",
+  "candidateHash": "d34706e16c96118959297aadaacfc19f5c9477fb90af69ad2bde1d50e7b88769",
+  "launcher": "/home/znyder/.local/share/applications/atelier.desktop",
+  "legacyPreserved": true,
+  "sources": {
+    "atelier/__init__.py": "2a8ef64d0da1b1e56e2ada01bff4c36a6c7b77535318f2e69c89fa66e9440af8",
+    "atelier/core.py": "531c73ab008f7ee9a5f69565c6893fdf7375ebce24a9d88064115480b64ee594",
+    "atelier/service.py": "60bc788aaba52f351c2d2e351ecc1ae479babe438178f76458afa1f09797c5b3",
+    "atelier/qt.py": "9873938a56022ab28bf8f259c7d1a42ae74e564a13d30b9548d805d44c30f827",
+    "atelier/thumbnails.py": "a347c9ef541574378b08a7467a2540e7177b4d123bf16e4d2bc63a4304613649",
+    "ui/DemoSession.qml": "79e14ab14805cd5f9b7f7c79b0b88a7424681622191c3dec96bb1d534c483c41",
+    "ui/Main.qml": "61d93a42271c61839078c94bd35a9999b95a742e8b8ac9cb4b2ba4140d3b5c9c",
+    "ui/LiveSession.qml": "22282d5d73ea6d7cad66d829614702c61a0b8adca603cd82eb651df9556bfddc",
+    "ui/components/Action.qml": "f6d6177fe9e6999d78d4ce7859861c2058ff73a8da7a2082da83f48059b3c12e",
+    "ui/components/Field.qml": "0bfd135a6206d5af1ac8ab14e54c97d57d4e5633b2dc1edcd6d5b41f1e3bf6d7",
+    "ui/components/Choice.qml": "5575d1907437f885d486b133b410ff7337ba876b72b4d254444d2544dfc1319a",
+    "packaging/engine_bridge.py": "62c3ef133fdbded5a64e3468000afd84b595b92c37e9ce2619a7b892661fc93c",
+    "main.py": "885b32497b57dcc9b0284c1f9730c1b4f76a04550a498f1c66824dc6b7e50ea1",
+    "run-atelier": "4ed408e86bd58ccb85a8a41cbbca7526d16612fcd98ca2ef8a543336fb4f5cce",
+    "activate-and-run": "4a5acbc0f861fbd2a2afb668bceb611de27460fb4e933f09266980446dd79240",
+    "tools/backup.py": "b5508fa3e502b609f2f4a77457cc2fb0a615b420da9288e94f280cfa23b7ecb3",
+    "tools/prepare_migration.py": "15fd14585aade034915d47bc4af72c1c67ab36e28c590fe5bcc4e4b302aa8ba8",
+    "tools/install.py": "ced49d2ce3dd38737a907fe01d9c4b1bfcd6ece25f604b979ff3be004b1431d3",
+    "tools/rollback.py": "ca037ba4f428f21967fdce10c7b65970ddcc770506c0f7491ede31f8ee80bd53",
+    "tools/diagnose.py": "3e11f1f0b1f67b75580448f13bd0bb5bac3bc1293982eceba1c50551a098e6b9",
+    "tools/activate.py": "5f1f1d3f4422abede8217aac7a38a227a682f826a999df089d06b3c2ff175ecc",
+    "tests/qt/test_runtime.py": "67dfd9e59d3fcba470f12eb789ba1dcdadcbc0b9530c94da142ada126660b86b"
+  }
+}

@@ -1,0 +1,8 @@
+#!/bin/bash
+set -eu
+APP_DIR=$(cd -- "$(dirname -- "$0")" && pwd)
+export QT_QUICK_CONTROLS_STYLE=Basic
+if "$APP_DIR/.venv/bin/python" -c 'import PySide6' 2>/dev/null; then
+  exec "$APP_DIR/.venv/bin/python" "$APP_DIR/main.py" "$@"
+fi
+exec python3 "$APP_DIR/main.py" "$@"

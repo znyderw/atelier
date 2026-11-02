@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Atelier
+Comment=Wallpapers e temas
+Exec="/home/znyder/Projects/omarchy-wallpaper-manager/activate-and-run"
+Icon=preferences-desktop-wallpaper
+Terminal=false
+Categories=Settings;DesktopSettings;

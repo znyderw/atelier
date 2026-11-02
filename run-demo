@@ -1,0 +1,12 @@
+#!/bin/bash
+set -eu
+APP_DIR=$(cd -- "$(dirname -- "$0")" && pwd)
+export QT_QUICK_CONTROLS_STYLE=Basic
+if "$APP_DIR/.venv/bin/python" -c 'import PySide6' 2>/dev/null; then
+  exec "$APP_DIR/.venv/bin/python" "$APP_DIR/main.py" --demo "$@"
+fi
+if python3 -c 'import PySide6' 2>/dev/null; then
+  exec python3 "$APP_DIR/main.py" --demo "$@"
+fi
+printf '%s\n' 'PySide6 indisponível. Abrindo a mesma interface no executor Qt/QML instalado.' >&2
+exec /usr/lib/qt6/bin/qml -f "$APP_DIR/ui/Main.qml" -- "$@"

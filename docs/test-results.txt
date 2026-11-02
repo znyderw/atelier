@@ -1,0 +1,14 @@
+2026-10-30
+Python services: 44 tests passed
+QML: 3 scenarios; 9 QtTest entries passed; 0 failures
+PySide6 runtime: 1 real test passed; no skips
+Read-only inventory: 252 wallpapers; 143 Workshop; 24 themes
+Real palette generation: 28 colors, not applied
+Real thumbnail generation: passed in temporary cache
+Migration install/rollback: passed in temporary home only
+Installed plugin: unchanged; desktop migration not executed
+
+Real Python/QML library render: 252 wallpapers; 24 themes; screenshot inspected
+User launcher deployed with first-run activation
+Desktop socket access: denied by sandbox; escalation automatically rejected
+Bridge activation and physical desktop checks: pending first user launch
