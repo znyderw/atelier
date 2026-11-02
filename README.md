@@ -1,43 +1,47 @@
-# Atelier
+# # Atelier
 
-Um gerenciador de wallpapers e temas para o **Omarchy**, feito para reunir tudo em um só lugar, sem complicação.
+**Um projeto pessoal para explorar a personalização do Omarchy.**
+
+O Atelier surgiu da vontade de ter um lugar só para organizar meus wallpapers, explorar temas e personalizar as cores do sistema.
+
+A ideia é criar uma alternativa mais visual e intuitiva aos gerenciadores tradicionais, com uma interface simples, sem abrir mão das opções de personalização.
 
 ![Interface do Atelier](assets/preview.png)
 
-O Atelier permite explorar seus wallpapers locais e do **Steam Workshop**, organizar favoritos e personalizar temas e paletas de cores. A interface dá destaque às imagens, com controles discretos e um painel de detalhes que aparece quando necessário.
+## O projeto
 
-## O que ele oferece
+O Atelier reúne algumas funcionalidades que eu queria ter no meu próprio desktop:
 
-- **Biblioteca visual:** wallpapers locais e do Workshop, com pesquisa, filtros e favoritos.
-- **Temas e cores:** visualização e edição de paletas, criação de rascunhos e proteção do tema `default`.
-- **Vários monitores:** escolha do monitor e integração com o sistema de wallpapers já existente.
-- **Organização:** importação de imagens e miniaturas em cache para navegar com mais fluidez.
+- **Wallpapers:** biblioteca visual com imagens locais e do Steam Workshop.
+- **Temas:** visualização, edição e criação de paletas de cores.
+- **Personalização:** cores extraídas dos wallpapers e configurações por monitor.
+- **Interface:** navegação simples, pré-visualizações e foco no conteúdo.
 
-## Como executar
+## Tecnologias
 
-Na pasta do projeto:
+Desenvolvido para o ambiente **Arch Linux + Omarchy**, utilizando:
 
-```bash
-./run-demo       # demonstração, sem alterar o desktop
-./run-atelier    # biblioteca real, sem aplicar mudanças no desktop
-```
+- Python
+- PySide6 / QML
+- Hyprland e Quickshell
+- FFmpeg
+- linux-wallpaperengine
 
-Para a primeira abertura na sessão gráfica, depois de seguir as instruções de instalação:
+## Estado atual
 
-```bash
-./activate-and-run
-```
+**Em desenvolvimento — v0.3.0**
 
-O Atelier também fica disponível no launcher após a instalação.
+O Atelier já possui uma interface funcional e consegue acessar minha biblioteca de wallpapers e temas.
 
-> **Versão 0.3.0:** a interface e a leitura da biblioteca real já foram testadas, mas a aplicação de wallpapers e temas ainda depende da ativação e validação da integração com o desktop. O gerenciador anterior é mantido como alternativa de recuperação.
+Algumas integrações com o desktop ainda estão sendo testadas e ajustadas. Por enquanto, o projeto foi desenvolvido para o meu ambiente pessoal e **não está preparado para instalação e uso geral em outros sistemas**.
 
-## Documentação
+O código está disponível principalmente para compartilhar o desenvolvimento e registrar minha evolução com Linux, interfaces gráficas e integração com o sistema.
 
-- [Instalação](docs/INSTALL.md)
-- [Validação](docs/VALIDATION.md)
-- [Recuperação](docs/RECOVERY.md)
+## Próximos passos
+
+- Finalizar e validar as integrações com o Omarchy.
+- Melhorar o editor de temas.
+- Refinar a experiência de uso.
+- Tornar o projeto mais independente das configurações do meu ambiente.
 
 ---
-
-Projeto independente, desenvolvido para quem gosta de personalizar o Omarchy.
